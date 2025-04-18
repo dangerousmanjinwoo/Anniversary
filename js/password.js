@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if(password.value == correctPass) {
             correct();
             setTimeout(function() {
-                location.href = "/page/intro.html";
+                location.href = "/Anniversary/page/intro.html";
             }, 2000);
             password.value = "";
         } else if(password.value == "") {
