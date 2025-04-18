@@ -1,0 +1,101 @@
+@media all and (max-width:479px) {
+* {
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    color: #222;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: black;
+}
+#wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.swiper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    align-items: center;
+    background: white;
+    position: relative;
+}
+.slide > img {
+    width: 350px;
+}
+
+video {
+    width: 350px;
+}
+
+.content {
+    width: 350px;
+    font-size: 12px;
+}
+
+.expBox {
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.expBox > * {
+    margin: 5px;
+}
+.expBox > button {
+    border: none;
+    font-size: 8px;
+    width: 35px;
+    height: 35px;
+    background-image: url(/images/bigger_header_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    color: white;
+}
+.imgBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fff3fd;
+}
+
+.imgBox > div {
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.receive {
+    margin-top: 60px;
+    background: #008ae6;
+    border: none;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 12px;
+}
+.bgBlack {
+    background-color: black;
+}
+}

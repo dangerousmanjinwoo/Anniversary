@@ -1,0 +1,31 @@
+#rotate-warning {
+    display: none;
+    font-size: 24px;
+}
+  
+@media screen and (max-width: 950px) and (orientation: landscape) {
+    body > *:not(#rotate-warning) {
+        display: none;
+    }
+  
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #rotate-warning {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 28px;
+        font-weight: 700;
+        height: 400px;
+        border-radius: 0 100px 100px 100px;
+        background: white;
+        width: 600px;
+    }
+}
